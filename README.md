@@ -6,7 +6,7 @@ It demonstrates a clean and responsive design for a basic login interface.
 
 ## 🖼️ Preview
 
-![Login Form Screenshot](./Screenshot.png)
+![Login Form Screenshot](./screen.png)
 
 ## 🚀 Features
 

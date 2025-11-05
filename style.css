@@ -46,6 +46,7 @@ p{
 }
 .password:hover{
     transform: translateY(-3px) scale(1.05,1.05)
+
     
 }
 .username:hover{
@@ -70,6 +71,9 @@ p{
     align-items: center;
     transition: transform;
     transition-duration: 1s;
+    /* transition-timing-function: ease-out; */
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
 
 }
 
@@ -89,8 +93,9 @@ p{
     font-size: 15px;
     font-weight: 600;
     transition-property: background-color ,border-radius , color;
-    transition-duration: 0.5s , 1s;
+   transition-duration: 0.3s , 1s;
     transition-delay: 0.01s;
+    transition-timing-function: ease-out;
     /* margin:0 20px 0 20px; */
 
 }

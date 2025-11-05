@@ -30,7 +30,12 @@ body{
     margin: 0 auto;
     border-radius: 50%;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    transition: transform;
+    transition-duration: 0.5s;
    
+}
+.logo:hover{
+    transform: scale(1.1,1.1);
 }
 p{
     text-align: center;
@@ -38,6 +43,14 @@ p{
 .inputs{
     width: 100%;
     padding: 20px;
+}
+.password:hover{
+    transform: translateY(-3px) scale(1.05,1.05)
+    
+}
+.username:hover{
+    transform: translateY(-3px) scale(1.05,1.05)
+
 }
 .inputs input{
      border: none;
@@ -55,6 +68,8 @@ p{
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    transition: transform;
+    transition-duration: 1s;
 
 }
 
@@ -73,14 +88,16 @@ p{
     background-color: #CEBBF5;
     font-size: 15px;
     font-weight: 600;
-    transition-property: background-color;
-    transition-duration: 1s;
+    transition-property: background-color ,border-radius , color;
+    transition-duration: 0.5s , 1s;
+    transition-delay: 0.01s;
     /* margin:0 20px 0 20px; */
 
 }
 .login-button:hover{
     background-color: #543B9B;
     color: aliceblue;
+    border-radius: 20px;
 }
 .link{
     padding-top: 20px;
